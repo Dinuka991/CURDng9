@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { MatDialogRef } from '@angular/material/dialog';
+import { FormGroup, FormBuilder } from '@angular/forms';
+
 
 @Component({
   selector: 'app-root',
