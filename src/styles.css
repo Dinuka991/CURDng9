@@ -3,24 +3,54 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-.example-container {
-    display: flex;
-    flex-direction: column;
+  .div-container{
+    margin: 0px 40px;
   }
-  
-  .example-container > * {
+
+  .margin-container{
+    margin: 0px 40px;
+  }
+  .fill-rem-spc{
+    flex:1  1 auto;
+  }
+
+  .normal-form{
+  margin: 10px;
+  }
+  .controles-container {
+    width: 100%;
+    padding: 5%
+  }
+  .controles-container > *{
     width: 100%;
   }
-  
-  .example-container form {
-    margin-bottom: 20px;
+  .add-bottom-padding{
+     padding-bottom: 10px ;
   }
-  
-  .example-container form > * {
-    margin: 5px 0;
-  }
-  
-  .example-container .mat-radio-button {
-    margin: 0 12px;
-  }
-  
+.mat-radio-grou mat-radio-button{
+  margin-left: 5px;
+}
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
+.example-container form {
+  margin-bottom: 20px;
+}
+
+.example-container form > * {
+  margin: 5px 0;
+}
+
+.example-container .mat-radio-button {
+  margin: 0 12px;
+}

@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddUserComponent } from './add-user/add-user.component';
 import { MaterialModule } from './material/material.module';
+import { UserComponent } from './users/user/user.component';
+import { UsersComponent } from './users/users.component';
 
 
 
@@ -14,6 +16,9 @@ import { MaterialModule } from './material/material.module';
   declarations: [
     AppComponent,
     AddUserComponent,
+    UserComponent,
+    UsersComponent
+    
     
   ],
   imports: [
@@ -23,6 +28,7 @@ import { MaterialModule } from './material/material.module';
     FormsModule,
     MaterialModule,
     ReactiveFormsModule,
+
     
   ],
   providers: [],

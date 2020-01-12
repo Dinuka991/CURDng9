@@ -11,8 +11,18 @@ export class AddUserComponent {
 
   constructor(fb: FormBuilder) {
     this.options = fb.group({
-      hideRequired: false,
-      floatLabel: 'auto',
+
+        hideRequired: false,
+        floatLabel: 'auto',
+        firstName: [''],
+        lastName: [''],
+        address: ({
+        street: [''],
+        city: [''],
+        state: [''],
+        zip: ['']
+        }),
+    
     });
   }
 }

@@ -11,6 +11,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatTabsModule} from '@angular/material/tabs';
 import { MatSliderModule } from '@angular/material/slider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { MatNativeDateModule } from '@angular/material/core';
 
 
 const MaterialComponent =  [
@@ -26,7 +29,11 @@ const MaterialComponent =  [
     MatAutocompleteModule,
     MatIconModule,
     MatTabsModule,
-    MatSliderModule
+    MatSliderModule,
+    MatToolbarModule,
+    MatGridListModule,
+    MatNativeDateModule,
+    
 
 ]
 
